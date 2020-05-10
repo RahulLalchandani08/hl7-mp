@@ -117,11 +117,11 @@ const LoginPage = ({ history }) => {
       </Mutation>
       <hr />
       <p>Not Medical Practitioner?</p>
-      <Button as="a" href="https://hl7-admin.netlify.com">
+      <Button as="a" href="https://hl7-admin.netlify.app">
         Go To Admin Page
       </Button>
       {'  '}
-      <Button as="a" href="https://hl7-patient.netlify.com">
+      <Button as="a" href="https://hl7-patient.netlify.app">
         Go To Patient Page
       </Button>
     </Form>
