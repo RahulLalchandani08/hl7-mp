@@ -150,7 +150,7 @@ const AddPatientRecord = ({ match, client, history }) => {
           />
         </Form.Group>
         <Form.Group>
-          <Form.Label>Tx</Form.Label>
+          <Form.Label>Treatment</Form.Label>
           <Form.Control
             type="text"
             required
@@ -168,7 +168,7 @@ const AddPatientRecord = ({ match, client, history }) => {
         </Form.Group>
 
         <Form.Group>
-          <Form.Label>cevsSp</Form.Label>
+          <Form.Label>Systolic Pressure</Form.Label>
           <Form.Control
             type="number"
             value={cevsSp}
@@ -177,7 +177,7 @@ const AddPatientRecord = ({ match, client, history }) => {
           />
         </Form.Group>
         <Form.Group>
-          <Form.Label>cevsDp</Form.Label>
+          <Form.Label>Diastolic Pressure</Form.Label>
           <Form.Control
             type="number"
             value={cevsDp}
@@ -204,7 +204,7 @@ const AddPatientRecord = ({ match, client, history }) => {
           />
         </Form.Group>
         <Form.Group>
-          <Form.Label>ceHeight</Form.Label>
+          <Form.Label>Height</Form.Label>
           <Form.Control
             type="number"
             value={ceHeight}
@@ -213,7 +213,7 @@ const AddPatientRecord = ({ match, client, history }) => {
           />
         </Form.Group>
         <Form.Group>
-          <Form.Label>ceWeight</Form.Label>
+          <Form.Label>Weight</Form.Label>
           <Form.Control
             type="number"
             value={ceWeight}
