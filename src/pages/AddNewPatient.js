@@ -347,7 +347,7 @@ const AddNewPatient = ({ history }) => {
         </Form.Control>
       </Form.Group>
       <Form.Group>
-        <Form.Label>PMH</Form.Label>
+        <Form.Label>Past Medical History</Form.Label>
         <Form.Control
           type="text"
           value={PMH}
@@ -355,7 +355,7 @@ const AddNewPatient = ({ history }) => {
         />
       </Form.Group>
       <Form.Group>
-        <Form.Label>DHx</Form.Label>
+        <Form.Label>Drug History</Form.Label>
         <Form.Control
           type="text"
           value={DHx}
@@ -363,7 +363,7 @@ const AddNewPatient = ({ history }) => {
         />
       </Form.Group>
       <Form.Group>
-        <Form.Label>Ca</Form.Label>
+        <Form.Label>Cardiac Arrest</Form.Label>
         <Form.Control
           type="text"
           value={Ca}
@@ -371,7 +371,7 @@ const AddNewPatient = ({ history }) => {
         />
       </Form.Group>
       <Form.Group>
-        <Form.Label>IDDM</Form.Label>
+        <Form.Label>Insulin-Dependent Diabetes Melitus</Form.Label>
         <Form.Control
           type="text"
           value={IDDM}
@@ -379,7 +379,7 @@ const AddNewPatient = ({ history }) => {
         />
       </Form.Group>
       <Form.Group>
-        <Form.Label>NIDDM</Form.Label>
+        <Form.Label>Non Insulin-Dependent Diabetes Melitus</Form.Label>
         <Form.Control
           type="text"
           value={NIDDM}
@@ -387,7 +387,7 @@ const AddNewPatient = ({ history }) => {
         />
       </Form.Group>
       <Form.Group>
-        <Form.Label>MI</Form.Label>
+        <Form.Label>Myocardial Infarction</Form.Label>
         <Form.Control
           type="text"
           value={MI}
@@ -395,7 +395,7 @@ const AddNewPatient = ({ history }) => {
         />
       </Form.Group>
       <Form.Group>
-        <Form.Label>AF</Form.Label>
+        <Form.Label>Atrial Fibrillition</Form.Label>
         <Form.Control
           type="text"
           value={AF}
